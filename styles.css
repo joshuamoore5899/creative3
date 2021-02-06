@@ -130,20 +130,19 @@ a:visited:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .image-item {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin: 0;
   width: 100%;
   height: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .image-item img {
-  display: block;
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 .about-paragraph {
